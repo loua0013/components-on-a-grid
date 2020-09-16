@@ -28,7 +28,7 @@ body {
   gap: 1rem;
   grid-template-areas:
     "banner  banner"
-    "iss    labs"
+    "main    main"
 }
 
 .logo {
@@ -38,14 +38,18 @@ body {
   z-index: 100;
 }
 
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 figure:nth-child(1) {
   grid-column: 1/2;
-  grid-area: iss;
 }
 
 figure:nth-child(2) {
   grid-column: 2/3;
-  grid-area: labs;
 }
 
 .pano {
