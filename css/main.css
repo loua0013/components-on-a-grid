@@ -25,7 +25,7 @@ body {
   margin: .5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 4rem 55rem 4rem 55rem 55rem;
+  grid-template-rows: 4rem 50rem 4rem 50rem 50rem;
   gap: 1rem;
   grid-template-areas:
     "banner  banner"
@@ -36,8 +36,11 @@ body {
   width: 14rem;
   grid-column: 1;
   grid-row: 3;
-  z-index: 1;
 
+}
+
+main {
+  grid-area: main;
 }
 
 figure:nth-child(1) {
