@@ -25,6 +25,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 4rem 55rem 4rem 55rem 55rem;
+  gap: 1rem;
 }
 
 .logo {
