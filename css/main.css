@@ -22,11 +22,14 @@ header {
 }
 
 body {
-  margin: 1rem;
+  margin: .5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 4rem 55rem 4rem 55rem 55rem;
   gap: 1rem;
+  grid-template-areas:
+    "banner  banner"
+    "main    main"
 }
 
 .logo {
@@ -48,8 +51,7 @@ figure:nth-child(2) {
 }
 
 .pano {
-  grid-column: 1/-1;
-  grid-row: 1/4;
+  grid-area: banner;
 }
 
 h2 {
