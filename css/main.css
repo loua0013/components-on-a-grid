@@ -38,15 +38,13 @@ body {
   z-index: 100;
 }
 
-main > figure:nth-child(1) {
-  grid-column: 1;
-  grid-row: 4;
+figure:nth-child(1) {
+  grid-column: 1/2;
   grid-area: iss;
 }
 
-main > figure:nth-child(2) {
-  grid-column: 2;
-  grid-row: 5;
+figure:nth-child(2) {
+  grid-column: 2/3;
   grid-area: labs;
 }
 
