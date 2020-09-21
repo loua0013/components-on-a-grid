@@ -35,7 +35,7 @@ body {
 .logo {
   width: 14rem;
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 1s;
   z-index: 100;
 }
 
